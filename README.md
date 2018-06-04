@@ -16,8 +16,7 @@ that stores parameters in EEPROM.
 The code was written in the Arduino IDE targeted at "Adafruit Trinket 
 (ATtiny85 @ 8 MHz)," and can be ported to other Arduino boards 
 (add delays per the program comments for faster processors). 
-NeoPixel Arduino routines are used to drive the smart LEDs  
-(NeoPixel arrays use the same type of LEDs).
+NeoPixel Arduino routines are used to drive the smart LEDs (NeoPixel arrays use the same type of LEDs).
 
 The program uses ~5 Kbytes out of 8 Kbytes of flash 
 (5.4 Kbytes are available with an Arduino bootloader).
