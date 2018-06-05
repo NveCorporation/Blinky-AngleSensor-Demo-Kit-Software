@@ -13,6 +13,9 @@ The board also has an analog PWM angle output with a rail-to-rail output
 scaled for zero to 360 degrees. There's also a calibration routine 
 that stores parameters in EEPROM.
 
+The software includes ADC routines to read the sensor; digital filtering; 
+angle calculation and calibration; and determining motion and direction.
+
 The code was written in the Arduino IDE targeted at "Adafruit Trinket 
 (ATtiny85 @ 8 MHz)," and can be ported to other Arduino boards 
 (add delays per the program comments for faster processors). 
@@ -20,3 +23,6 @@ NeoPixel Arduino routines are used to drive the smart LEDs (NeoPixel arrays use 
 
 The program uses ~5 Kbytes out of 8 Kbytes of flash 
 (5.4 Kbytes are available with an Arduino bootloader).
+
+For more information on the demo kit or to order online, visit:
+https://www.nve.com/webstore/catalog/product_info.php?cPath=27_29&products_id=652
