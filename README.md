@@ -24,5 +24,7 @@ NeoPixel Arduino routines are used to drive the smart LEDs (NeoPixel arrays use 
 The program uses ~5 Kbytes out of 8 Kbytes of flash 
 (5.4 Kbytes are available with an Arduino bootloader).
 
+A live demonstration is available on www.nve.com/videos.php or www.YouTube.com/NveCorporation .
+
 For more information on the demo kit or to order online, visit:
 https://www.nve.com/webstore/catalog/product_info.php?cPath=27_29&products_id=677
