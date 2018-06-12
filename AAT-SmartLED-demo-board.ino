@@ -28,8 +28,8 @@ char arrowPixel; //Arrow pixel animation position
 unsigned char arrowPixelBrightness;
 unsigned char i; //Arrow pixel index
 char j; //Indicates cw or ccw arrow
-const unsigned char brightness = 4; //Brightness (1-8)
-const unsigned char m = 16; //Filter constant; Fc=Fsample/(m*2*pi); Fsample=~250/s
+const unsigned char brightness = 2; //Brightness (1-8)
+const unsigned char m = 2; //Filter constant; Fc=Fsample/(m*2*pi); Fsample=~250/s
 
 //Sensor min and max outputs (actual values determined in calibration routine)
 unsigned char AATsinmin = 63; //Defaults to +-65 mV/V min amplitude offset by 128
